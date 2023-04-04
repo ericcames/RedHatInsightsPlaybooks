@@ -1,0 +1,11 @@
+---
+  - name: This is default playbook for this repository
+    hosts: localhost
+    connection: local
+    gather_facts: no
+    
+    tasks:
+
+    - name: If you are seeing this something went wrong
+      ansible.builtin.debug:
+       msg: "This is a default playbook that should be replaced by Red Hat Insights remediation playbooks!!"
